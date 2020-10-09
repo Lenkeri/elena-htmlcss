@@ -1,3 +1,15 @@
-body {
-  font-family: PT Sans;
+:root {
+  --basic-white: #fff;
+  --basic-blue: #81B3D2;
+  --basic-brown: #766357;
+  --basic-grey: #eee;
+  --hotels-brown: #333;
+  --hotels-grey: #E5E5E5;
+}
+
+
+.advantages-1,
+.advantages-2 {
+  font: 21px var(--basic-blue);
+  line-height: 21px;
 }
