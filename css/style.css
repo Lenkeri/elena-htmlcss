@@ -56,8 +56,8 @@ img {
   color: var(--basic-black);
 }
 
-.advantages-1,
-.advantages-2 {
+.advantages-1 h3,
+.advantages-2 h3{
   color: var(--basic-white);
   font-size: 21px;
   line-height: 21px;
