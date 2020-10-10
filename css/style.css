@@ -19,7 +19,7 @@ body {
   color: var(--basic-brown);
   text-transform: uppercase;
   background-color: var(--basic-white);
-  position: center;
+  text-align: center;
 }
 h1 {
   color: var(--basic-white);
