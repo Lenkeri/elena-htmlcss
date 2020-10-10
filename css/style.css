@@ -86,3 +86,21 @@ line-height: 21px;
 .advantages-3-4-5 {
   background: var(--basic-grey);
 }
+
+.dont-see{
+display: none;
+}
+
+.question {
+  font-weight: bold;
+  size: 30px;
+  line Height: 24px;
+}
+
+.search-hotels botton {
+   background: var(--basic-brown);
+}
+
+.form-search {
+  background: var(--basic-blue);
+}
