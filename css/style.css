@@ -93,11 +93,12 @@ display: none;
 
 .question {
   font-weight: bold;
-  size: 30px;
-  line Height: 24px;
+  font-size: 30px;
+  line height: 24px;
+  color: var(--basic-black);
 }
 
-.search-hotels botton {
+.search-hotels button {
    background: var(--basic-brown);
 }
 
