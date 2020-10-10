@@ -1,5 +1,6 @@
 :root {
   --basic-white: #fff;
+  --basic-black: #000;
   --basic-blue: #81B3D2;
   --basic-brown: #766357;
   --basic-grey: #eee;
@@ -18,7 +19,20 @@ body {
   color: var(--basic-grey);
   text-transform: uppercase;
   background-color: var(--basic-white);
+}
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  
+}
+
+.site-navigation {
+  font-weight: bold;
+  color: var(--basic-black);
 }
 
 .advantages-1,
