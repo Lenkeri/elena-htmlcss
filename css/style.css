@@ -57,15 +57,15 @@ img {
 }
 
 .advantages-1 h3,
-.advantages-2 h3{
+.advantages-2 h3 {
   color: var(--basic-white);
   font-size: 21px;
   line-height: 21px;
   background: var(--basic-blue);
 }
 
-.advantages-1 p,
-.advantages-2 p{
+.advantages-1,
+.advantages-2 {
   font-size: 14px;
   line-height: 21px;
   color: var(--basic-white);
@@ -81,4 +81,5 @@ img {
 color: var(--basic-brown);
 font-size: 14px;
 line-height: 21px;
+background: var(--basic-grey);
 }
