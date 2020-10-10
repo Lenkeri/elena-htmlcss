@@ -49,7 +49,6 @@ a {
 
 img {
   max-width: 100%;
-  
 }
 
 .site-navigation {
@@ -59,10 +58,10 @@ img {
 
 .advantages-1,
 .advantages-2 {
+  color: var(--basic-white);
   font-size: 21px;
   line-height: 21px;
   background: var(--basic-blue);
-  color: var(--basic-white);
 }
 
 .advantages-1 p,
