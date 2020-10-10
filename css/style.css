@@ -2,9 +2,9 @@
   --basic-white: #fff;
   --basic-black: #000;
   --basic-blue: #81B3D2;
-  --basic-brown: #766357;
+  --form-brown: #766357;
   --basic-grey: #eee;
-  --hotels-brown: #333;
+  --basic-brown: #333;
   --hotels-grey: #E5E5E5;
 }
 
@@ -16,9 +16,29 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
-  color: var(--basic-grey);
+  color: var(--basic-brown);
   text-transform: uppercase;
   background-color: var(--basic-white);
+}
+h1 {
+  color: var(--basic-white);
+  font-size: 30px;
+}
+
+h2{
+  line-height: 26px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-black)
+}
+
+li {
+  list-style: none;
 }
 
 a {
@@ -42,4 +62,15 @@ img {
   background: var(--basic-blue);
   color: var(--basic-white);
   position: absolute;
+}
+
+.advantages-3,
+.advantages-4,
+.advantages-5,
+.advantages-home,
+.advantages-eat,
+.advantages-souvenirs {
+color: var(--basic-brown);
+font-size: 14px;
+line-height: 21px;
 }
