@@ -19,7 +19,7 @@ body {
   color: var(--basic-brown);
   text-transform: uppercase;
   background-color: var(--basic-white);
-  text-align: center;
+  position: center;
 }
 h1 {
   color: var(--basic-white);
@@ -63,7 +63,6 @@ img {
   line-height: 21px;
   background: var(--basic-blue);
   color: var(--basic-white);
-  position: absolute;
 }
 
 .advantages-1 p,
@@ -71,7 +70,7 @@ img {
   font-size: 14px;
   line-height: 21px;
   color: var(--basic-white);
-  position: absolute;
+  background: var(--basic-blue);
 }
 
 .advantages-3,
