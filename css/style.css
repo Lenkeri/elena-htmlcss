@@ -94,14 +94,23 @@ display: none;
 .question {
   font-weight: bold;
   font-size: 30px;
-  line height: 24px;
+  line-height: 24px;
   color: var(--basic-black);
 }
 
 .search-hotels button {
    background: var(--basic-brown);
+  height: 86px;
+  width: 568px;
 }
 
 .form-search {
   background: var(--basic-blue);
+  height: 58px;
+  width: 458px;
+}
+
+.footer {
+  font-weight: bold;
+  color: var(--basic-black);
 }
