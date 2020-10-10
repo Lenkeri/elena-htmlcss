@@ -81,5 +81,8 @@ img {
 color: var(--basic-brown);
 font-size: 14px;
 line-height: 21px;
-background: var(--basic-grey);
+}
+
+.advantages-3-4-5 {
+  background: var(--basic-grey);
 }
