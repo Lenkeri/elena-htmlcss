@@ -6,6 +6,8 @@
   --basic-grey: #eee;
   --basic-brown: #333;
   --hotels-grey: #E5E5E5;
+  --hotels-rating: #F2F2F2;
+  --hotels-text-rating: #666666;
 }
 
 body {
@@ -160,12 +162,13 @@ display: none;
   color: var(--basic-black);
   line-height: 18px;
   opacity: 0.3;
-  border-bottom: 1px dashed var(--basic-blue);
+  border-bottom: 1px dashed;
+  border-color: var(--basic-blue);
 }
 
 .direction {
- border: none; 
- outline: none; 
+ border: none;
+ outline: none;
  background: none;
 }
 
@@ -183,4 +186,20 @@ display: none;
   line-height: 21px;
   font-size: 14px;
   font-weight: bold;
+}
+
+.rating {
+  font-size: 14px;
+  line-height: 21px;
+  background: var(--hotels-rating);
+  color: var(--hotels-text-rating);
+  text-align: right;
+}
+
+.star{
+  color: var(--basic-blue);
+}
+
+.stars {
+  color: none;
 }
