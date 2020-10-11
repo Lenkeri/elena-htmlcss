@@ -102,15 +102,43 @@ display: none;
    background: var(--basic-brown);
   height: 86px;
   width: 568px;
+  color:var(--basic-white);
+  font-weight: bold;
 }
 
 .form-search {
   background: var(--basic-blue);
   height: 58px;
   width: 458px;
+  color:var(--basic-white);
+  font-weight: bold;
 }
 
 .footer {
   font-weight: bold;
   color: var(--basic-black);
+}
+
+      /* Страница №2*/
+
+.hotels-form {
+  background: var(--basic-blue);
+  color: var(--basic-white);
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+
+.search-3 {
+  line-height: 26px;
+  color:var(--basic-black);
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.sorting {
+  color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
 }
