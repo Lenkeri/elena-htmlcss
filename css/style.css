@@ -24,17 +24,18 @@ body {
   background-color: var(--basic-white);
   text-align: center;
 }
-h1 {
+
+.h1 {
   color: var(--basic-white);
   font-size: 30px;
 }
 
-h2{
+.h2{
   line-height: 26px;
   color: var(--basic-black);
 }
 
-h3 {
+.h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -202,4 +203,20 @@ display: none;
 
 .stars {
   color: none;
+}
+
+.site-navigation:hover,
+.name-hotels:hover,
+.type-by:hover,
+.rating-by:hover,
+.academy:hover {
+  color: var(--basic-blue);
+}
+
+.name-hotels{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--basic-black)
 }
