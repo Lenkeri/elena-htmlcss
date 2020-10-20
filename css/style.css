@@ -115,8 +115,8 @@ display: none;
   color: var(--basic-black);
 }
 
-.search-hotels button {
-   background: var(--button-brown);
+.search-in-sedona {
+  background: var(--button-brown);
   height: 86px;
   width: 568px;
   color:var(--basic-white);
@@ -124,6 +124,15 @@ display: none;
   line-height: 26px;
   font-size: 21px;
 }
+
+.search-in-sedona:hover {
+background: var(--button-brown-hover);
+}
+
+.search-in-sedona:active {
+  background: var(--button-brown-active);
+  opacity: 30%;
+  }
 
 .form-search {
   background: var(--basic-blue);
@@ -134,6 +143,16 @@ display: none;
   line-height: 26px;
   font-size: 21px;
 }
+
+.form-search:hover {
+  background: var(--basic-blue-hover);
+}
+
+.form-search:active {
+  background: var(--basic-blue-active);
+  opacity: 30%;
+}
+
 
 .footer {
   font-weight: bold;
@@ -184,7 +203,7 @@ display: none;
 .rating-by a:active {
   color: var(--basic-black);
   border: none;
-  opacity: 1;
+  opacity: 30%;
 }
 
 .direction {
@@ -206,7 +225,7 @@ display: none;
 }
 
 .hotel-info:active {
-  opacity: 1;
+  opacity: 30%;
   background: var(--basic-blue-active);
 }
 
@@ -258,4 +277,19 @@ display: none;
   font-size: 21px;
   line-height: 26px;
   color: var(--basic-black)
+}
+
+.social a{
+  color: var(--basic-white);
+  opacity: 1;
+  background: var(--basic-blue);
+}
+
+.social a:hover {
+  background: var(--basic-blue-hover);
+}
+
+.social a:active {
+  background: var(--basic-blue-active);
+  opacity: 1;
 }
