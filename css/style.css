@@ -8,6 +8,10 @@
   --hotels-grey: #E5E5E5;
   --hotels-rating: #F2F2F2;
   --hotels-text-rating: #666666;
+  --basic-blue-hover: #669EC0;
+  --basic-blue-active: #5496BD;
+  --button-brown-hover: #604E43;
+  --button-brown-active: #503E33;
 }
 
 body {
@@ -55,9 +59,18 @@ img {
   max-width: 100%;
 }
 
-.site-navigation {
+.site-navigation a {
   font-weight: bold;
   color: var(--basic-black);
+}
+
+.site-navigation a:visited {
+  color: var(--button-brown);
+}
+
+.site-navigation a:active {
+  color: var(--basic-black);
+  opacity: 30%;
 }
 
 .advantages-1 h3,
@@ -157,14 +170,21 @@ display: none;
   line-height: 18px;
 }
 
-.type-by,
-.rating-by {
+.type-by a,
+.rating-by a {
   font-size: 12px;
   color: var(--basic-black);
   line-height: 18px;
   opacity: 0.3;
   border-bottom: 1px dashed;
   border-color: var(--basic-blue);
+}
+
+.type-by a:active,
+.rating-by a:active {
+  color: var(--basic-black);
+  border: none;
+  opacity: 1;
 }
 
 .direction {
@@ -181,12 +201,30 @@ display: none;
   font-weight: bold;
 }
 
+.hotel-info:hover {
+  background: var(--basic-blue-hover);
+}
+
+.hotel-info:active {
+  opacity: 1;
+  background: var(--basic-blue-active);
+}
+
 .buy {
   color: var(--basic-white);
   background: var(--button-brown);
   line-height: 21px;
   font-size: 14px;
   font-weight: bold;
+}
+
+.buy:hover {
+  background: var(--button-brown-hover);
+}
+
+.buy:active {
+  background: var(--button-brown-active);
+  opacity: 1;
 }
 
 .rating {
@@ -202,15 +240,16 @@ display: none;
 }
 
 .stars {
-  color: none;
+  font-size: 0;
 }
 
-.site-navigation:hover,
+.site-navigation a:hover,
 .name-hotels:hover,
-.type-by:hover,
-.rating-by:hover,
+.type-by a:hover,
+.rating-by a:hover,
 .academy:hover {
   color: var(--basic-blue);
+  opacity: 1;
 }
 
 .name-hotels{
