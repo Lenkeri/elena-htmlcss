@@ -78,8 +78,8 @@ img {
 }
 
 .site-navigation a:active {
+  opacity: 0.3;
   color: var(--basic-black);
-  opacity: 30%;
 }
 
 .advantages-1 h3,
@@ -140,7 +140,7 @@ background: var(--button-brown-hover);
 
 .search-in-sedona:active {
   background: var(--button-brown-active);
-  opacity: 30%;
+  opacity: 0.3;
   }
 
 .form-search {
@@ -159,7 +159,7 @@ background: var(--button-brown-hover);
 
 .form-search:active {
   background: var(--basic-blue-active);
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 
@@ -244,7 +244,7 @@ background: var(--button-brown-hover);
 }
 
 .hotel-info:active {
-  opacity: 30%;
+  opacity: 0.3;
   background: var(--basic-blue-active);
 }
 
@@ -262,7 +262,7 @@ background: var(--button-brown-hover);
 
 .buy:active {
   background: var(--button-brown-active);
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .rating {
@@ -302,7 +302,7 @@ background: var(--button-brown-hover);
 .name-hotels:active {
   color: var(--basic-black);
   mix-blend-mode: normal;
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 .social a{
@@ -317,7 +317,7 @@ background: var(--button-brown-hover);
 
 .social a:active {
   background: var(--basic-blue-active);
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .academy {
@@ -326,5 +326,5 @@ background: var(--button-brown-hover);
 
 .academy:active {
   color: var(--academy-active);
-  opacity: 30%;
+  opacity: 0.3;
 }
