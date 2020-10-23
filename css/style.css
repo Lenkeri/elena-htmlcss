@@ -271,6 +271,10 @@ background: var(--button-brown-hover);
   opacity: 1;
 }
 
+.academy {
+  color: var(--basic-black);
+}
+
 .name-hotels{
   font-style: normal;
   font-weight: bold;
@@ -293,3 +297,8 @@ background: var(--button-brown-hover);
   background: var(--basic-blue-active);
   opacity: 1;
 }
+
+.social ul {
+  background-color: var(--basic-blue);
+}
+
