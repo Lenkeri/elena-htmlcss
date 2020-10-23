@@ -12,6 +12,8 @@
   --basic-blue-active: #5496BD;
   --button-brown-hover: #604E43;
   --button-brown-active: #503E33;
+  --button-grey: #CACACA;
+  --academy-active: #231F20;
 }
 
 body {
@@ -62,6 +64,13 @@ img {
 .site-navigation a {
   font-weight: bold;
   color: var(--basic-black);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.site-navigation a:link {
+  color: var(--basic-black);
 }
 
 .site-navigation a:visited {
@@ -69,8 +78,8 @@ img {
 }
 
 .site-navigation a:active {
+  opacity: 0.3;
   color: var(--basic-black);
-  opacity: 30%;
 }
 
 .advantages-1 h3,
@@ -131,7 +140,7 @@ background: var(--button-brown-hover);
 
 .search-in-sedona:active {
   background: var(--button-brown-active);
-  opacity: 30%;
+  opacity: 0.3;
   }
 
 .form-search {
@@ -150,7 +159,7 @@ background: var(--button-brown-hover);
 
 .form-search:active {
   background: var(--basic-blue-active);
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 
@@ -203,13 +212,23 @@ background: var(--button-brown-hover);
 .rating-by a:active {
   color: var(--basic-black);
   border: none;
-  opacity: 30%;
+  opacity: 1;
 }
 
 .direction {
  border: none;
  outline: none;
  background: none;
+ color: var(--button-grey);
+ position: absolute;
+}
+
+.direction:hover {
+  color: var(--basic-black);
+}
+
+.direction:active {
+  color: var(--basic-blue);
 }
 
 .hotel-info {
@@ -225,7 +244,7 @@ background: var(--button-brown-hover);
 }
 
 .hotel-info:active {
-  opacity: 30%;
+  opacity: 0.3;
   background: var(--basic-blue-active);
 }
 
@@ -243,7 +262,7 @@ background: var(--button-brown-hover);
 
 .buy:active {
   background: var(--button-brown-active);
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .rating {
@@ -280,7 +299,14 @@ background: var(--button-brown-hover);
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
-  color: var(--basic-black)
+  color: var(--basic-black);
+  opacity: 1;
+}
+
+.name-hotels:active {
+  color: var(--basic-black);
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
 
 .social a{
@@ -295,7 +321,16 @@ background: var(--button-brown-hover);
 
 .social a:active {
   background: var(--basic-blue-active);
-  opacity: 1;
+  opacity: 0.3;
+}
+
+.academy {
+  color: var(--basic-black);
+}
+
+.academy:active {
+  color: var(--academy-active);
+  opacity: 0.3;
 }
 
 .social ul {
