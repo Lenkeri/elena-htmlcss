@@ -69,10 +69,6 @@ img {
   line-height: 26px;
 }
 
-.site-navigation a:link {
-  color: var(--basic-black);
-}
-
 .site-navigation a:visited {
   color: var(--button-brown);
 }
