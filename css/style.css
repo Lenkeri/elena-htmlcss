@@ -36,6 +36,10 @@ body {
   font-size: 30px;
 }
 
+button {
+  border: none;
+}
+
 .h2{
   line-height: 26px;
   color: var(--basic-black);
