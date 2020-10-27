@@ -38,6 +38,7 @@ body {
 
 button {
   border: none;
+  text-transform: uppercase;
 }
 
 .h2{
