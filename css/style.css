@@ -194,6 +194,10 @@ background: var(--button-brown-hover);
   line-height: 18px;
 }
 
+.price-by:hover {
+  color: var(--basic-blue);
+}
+
 .type-by a,
 .rating-by a {
   font-size: 12px;
