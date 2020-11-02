@@ -43,6 +43,7 @@ button {
 
 .h2{
   line-height: 26px;
+  font-size: 21px;
   color: var(--basic-black);
 }
 
@@ -112,6 +113,7 @@ line-height: 21px;
 
 .advantages-3-4-5 {
   background: var(--basic-grey);
+  padding: 20px;
 }
 
 .dont-see{
@@ -193,14 +195,10 @@ background: var(--button-brown-hover);
   line-height: 18px;
 }
 
-.price-by {
+.price-by a{
   font-size: 12px;
   color: var(--basic-blue);
   line-height: 18px;
-}
-
-.price-by:hover {
-  color: var(--basic-blue);
 }
 
 .type-by a,
@@ -318,6 +316,7 @@ background: var(--button-brown-hover);
   color: var(--basic-white);
   opacity: 1;
   background: var(--basic-blue);
+  width: 200px;
 }
 
 .social a:hover {
