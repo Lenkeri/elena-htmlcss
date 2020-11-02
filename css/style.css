@@ -316,7 +316,6 @@ background: var(--button-brown-hover);
   color: var(--basic-white);
   opacity: 1;
   background: var(--basic-blue);
-  width: 200px;
 }
 
 .social a:hover {
