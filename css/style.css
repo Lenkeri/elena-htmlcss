@@ -30,12 +30,21 @@
   background-color: var(--basic-white);
   text-align: center;
 }
-
-.body{
+/* ГРИДЫ */
+.body {
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-template-rows: 70px auto 120px;
   grid-column: 2/3;
 }
+
+.site-navigation {
+  display: grid;
+  grid-template-columns: repeat(5, 220px);
+  gap: 20px;
+  grid-column: 1/2;
+}
+/* ГРИДЫ */
 
 .h1 {
   color: var(--basic-white);
