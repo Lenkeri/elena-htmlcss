@@ -16,7 +16,7 @@
   --academy-active: #231F20;
 }
 
-body {
+.body {
   min-width: 960px;
   max-width: 1200px;
   margin: 10px;
@@ -29,6 +29,11 @@ body {
   text-transform: uppercase;
   background-color: var(--basic-white);
   text-align: center;
+}
+
+body{
+  display: grid;
+  grid-column: auto 1200px auto;
 }
 
 .h1 {
@@ -75,7 +80,7 @@ img {
   line-height: 26px;
 }
 
-.site-navigation a:visited {
+.current {
   color: var(--button-brown);
 }
 
@@ -312,9 +317,9 @@ background: var(--button-brown-hover);
   opacity: 0.3;
 }
 
-.social {
+/* .social {
   width: 40px;
-}
+} */
 
 .social a{
   color: var(--basic-white);
