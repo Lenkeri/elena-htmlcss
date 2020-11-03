@@ -19,7 +19,7 @@
 .body {
   min-width: 960px;
   max-width: 1200px;
-  margin: 10px;
+  margin: 0 auto;
   padding: 0;
   font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 14px;
@@ -33,7 +33,7 @@
 /* ГРИДЫ */
 .body {
   /* display: grid; */
-  grid-template-columns: auto 1200px auto;
+  grid-template-columns: 1fr 1200px 1fr;
   grid-template-rows:
    70px
    100px
@@ -44,6 +44,9 @@
 .main {
   grid-column: 2/3;
   grid-row: 2/4;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows:
+   auto;
 }
 
 .header{
