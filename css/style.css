@@ -31,9 +31,10 @@
   text-align: center;
 }
 
-body{
+.body{
   display: grid;
-  grid-column: auto 1200px auto;
+  grid-template-columns: auto auto auto;
+  grid-column: 2/3;
 }
 
 .h1 {
