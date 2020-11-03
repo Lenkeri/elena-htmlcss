@@ -312,6 +312,10 @@ background: var(--button-brown-hover);
   opacity: 0.3;
 }
 
+.social {
+  width: 40px;
+}
+
 .social a{
   color: var(--basic-white);
   opacity: 1;
@@ -340,3 +344,10 @@ background: var(--button-brown-hover);
   background-color: var(--basic-blue);
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
