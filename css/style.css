@@ -33,9 +33,10 @@
 /* ГРИДЫ */
 .body {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto 1200px auto;
   grid-template-rows: 70px auto 120px;
   grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 .site-navigation {
@@ -43,6 +44,7 @@
   grid-template-columns: repeat(5, 220px);
   gap: 20px;
   grid-column: 1/2;
+  grid-row: 1/2;
 }
 /* ГРИДЫ */
 
