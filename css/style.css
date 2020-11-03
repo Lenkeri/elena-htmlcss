@@ -32,22 +32,34 @@
 }
 /* ГРИДЫ */
 .body {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: auto 1200px auto;
-  grid-template-rows: 70px auto 120px;
+  grid-template-rows:
+   70px
+   100px
+    auto
+    120px;
 }
 
 .main {
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 2/4;
+}
+
+.header{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.site-footer {
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
 .site-navigation {
   display: grid;
   grid-template-columns: repeat(5, 220px);
   gap: 20px;
-  /* grid-column: 1/2;
-  grid-row: 1/2; */
 }
 /* ГРИДЫ */
 
