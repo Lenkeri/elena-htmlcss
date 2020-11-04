@@ -65,8 +65,8 @@
 .site-navigation {
   display: grid;
   grid-template-columns: repeat(5, 220px);
-  column-gap: 20px;
-
+  /* column-gap: 10px; */
+  row-gap: 20px;
 }
 
 .grid-image {
@@ -74,7 +74,7 @@
   grid-column: 1/-1;
   grid-row: 1/2;
   grid-template-columns: repeat(3, 400px);
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto auto auto;
 }
 
 .img-Sedona {
@@ -86,6 +86,16 @@
   grid-row: 1/2;
   grid-column: 2/3;
   padding-top: 70px;
+}
+
+.grid-image h2{
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.grid-image p {
+  grid-row: 3/4;
+  grid-column: 2/3;
 }
 
 /* ОКОНЧАНИЕ ГРИДЫ */
