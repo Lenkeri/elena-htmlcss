@@ -32,7 +32,7 @@
 }
 /* ГРИДЫ */
 .body {
-  /* display: grid; */
+  display: grid;
   grid-template-columns: 1fr 1200px 1fr;
   grid-template-rows:
    70px
@@ -42,11 +42,13 @@
 }
 
 .main {
+  display: grid;
   grid-column: 2/3;
   grid-row: 2/4;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows:
-   auto;
+   repeat(7, auto);
+  row-gap: 20px;
 }
 
 .header{
@@ -62,9 +64,15 @@
 .site-navigation {
   display: grid;
   grid-template-columns: repeat(5, 220px);
-  gap: 20px;
+  column-gap: 20px;
 }
-/* ГРИДЫ */
+
+.img-Sedona {
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+
+/* ОКОНЧАНИЕ ГРИДЫ */
 
 .h1 {
   color: var(--basic-white);
@@ -149,10 +157,6 @@ line-height: 21px;
 .advantages-3-4-5 {
   background: var(--basic-grey);
   padding: 20px;
-}
-
-.dont-see{
-display: none;
 }
 
 .question {
