@@ -112,18 +112,22 @@
   grid-row: 1/2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 256px;
+  grid-template-rows: 128px 128px;
 }
 
-.advantages-1 p,
 .advantages-1 h3{
   grid-column: 1/2;
   grid-row: 1/2;
 }
 
+.advantages-1 p{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
 .advantages-1 img{
   grid-column: 2/-1;
-  grid-row: 1/2;
+  grid-row: 1/-1;
 }
 
 /* ОКОНЧАНИЕ ГРИДЫ */
