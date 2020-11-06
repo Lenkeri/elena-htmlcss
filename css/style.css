@@ -192,10 +192,16 @@
 }
 
 .footer {
-  grid-column: ;
+  grid-column: 1/2;
 }
 
+.social {
+  grid-column: 2/3;
+}
 
+.html-logo {
+  grid-column: 3/4;
+}
 /* ОКОНЧАНИЕ ГРИДЫ */
 
 .h1 {
@@ -475,22 +481,33 @@ background: var(--button-brown-hover);
   opacity: 0.3;
 }
 
-/* .social {
-  width: 40px;
-} */
+.social-box {
+  display: inline;
+  width: 46px;
+  height: 48px;
+  background: var(--basic-blue);
+  margin: 10px;
+}
+
+.social-box img {
+  padding: 10px;
+}
 
 .social a{
   color: var(--basic-white);
   opacity: 1;
-  background: var(--basic-blue);
+  /* background: var(--basic-blue); */
 }
 
-.social a:hover {
+.social-box:hover {
   background: var(--basic-blue-hover);
 }
 
+.social-box:active{
+background: var(--basic-blue-active);
+}
+
 .social a:active {
-  background: var(--basic-blue-active);
   opacity: 0.3;
 }
 
@@ -503,9 +520,9 @@ background: var(--button-brown-hover);
   opacity: 0.3;
 }
 
-.social ul {
+/* .social ul {
   background-color: var(--basic-blue);
-}
+} */
 
 .visually-hidden {
   position: absolute;
