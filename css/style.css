@@ -66,15 +66,18 @@
   grid-template-rows: 56px;
 }
 
-.site-navigation {
+
+
+.site-navigation{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 56px;
+  grid-column: 1/-1;
   /* column-gap: 10px; */
   /* row-gap: 50px; */
 }
 
-.site-navigation img {
+.main-navigation img {
   grid-column: 3/4;
 }
 
