@@ -68,6 +68,15 @@
   /* row-gap: 50px; */
 }
 
+.site-navigation img {
+  grid-column: 3/4;
+}
+
+.site-navigation li {
+  grid-column:;
+}
+
+
 .grid-image {
   display: grid;
   grid-column: 1/-1;
@@ -555,7 +564,7 @@ background: var(--button-brown-hover);
 }
 
 .social-box img {
-text-align: center;
+padding-top:30px;
 }
 
 .social a{
