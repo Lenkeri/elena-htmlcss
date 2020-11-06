@@ -90,6 +90,7 @@
 .img-Sedona-3 {
   grid-row: -2/-1;
   grid-column: 1/-1;
+  z-index: 2;
 }
 
 .grid-image h2{
@@ -198,7 +199,7 @@
 } */
 
 .search-in-sedona {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .search-hotels{
@@ -310,6 +311,7 @@ line-height: 21px;
 .advantages-3-4-5 {
   background: var(--basic-grey);
   padding: 20px;
+  margin: 0;
 }
 
 .question {
@@ -317,6 +319,7 @@ line-height: 21px;
   font-size: 30px;
   line-height: 24px;
   color: var(--basic-black);
+  padding-top: 30px;
 }
 
 .search-in-sedona {
