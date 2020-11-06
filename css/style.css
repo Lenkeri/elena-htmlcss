@@ -482,7 +482,7 @@ background: var(--button-brown-hover);
 }
 
 .social-box {
-  display: inline;
+  display: inline-block;
   width: 46px;
   height: 48px;
   background: var(--basic-blue);
@@ -505,6 +505,7 @@ background: var(--button-brown-hover);
 
 .social-box:active{
 background: var(--basic-blue-active);
+opacity: 1;
 }
 
 .social a:active {
