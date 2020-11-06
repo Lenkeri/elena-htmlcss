@@ -65,6 +65,7 @@
   display: grid;
   grid-template-columns: repeat(5, 220px);
   grid-template-rows: 56px;
+  z-index: 1;
   /* column-gap: 10px; */
   /* row-gap: 50px; */
 }
@@ -172,6 +173,11 @@
   grid-row: 1/2;
 } */
 
+.advantages-3-4-5{
+  grid-column: 1/-1;
+  grid-row: 4/5;
+  display: grid;
+}
 
 /* ОКОНЧАНИЕ ГРИДЫ */
 
@@ -228,8 +234,8 @@ img {
   color: var(--basic-black);
 }
 
-.advantages-1 h3,
-.advantages-2 h3 {
+.grid-advantages-1 h3,
+.grid-advantages-2 h3 {
   color: var(--basic-white);
   font-size: 21px;
   line-height: 21px;
@@ -237,7 +243,7 @@ img {
 }
 
 .advantages-1,
-.advantages-2 {
+.grid-advantages-2 {
   font-size: 14px;
   line-height: 21px;
   color: var(--basic-white);
