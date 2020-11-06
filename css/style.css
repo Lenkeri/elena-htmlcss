@@ -224,8 +224,9 @@
   grid-column: 2/3;
 }
 
-.social-box {
+.social li{
   display: grid;
+  grid-template-columns: 1fr 48px 48px 48px 1fr ;
 }
 
 .html-logo {
@@ -513,7 +514,6 @@ background: var(--button-brown-hover);
 }
 
 .social-box {
-  display: inline-block;
   width: 46px;
   height: 48px;
   background: var(--basic-blue);
@@ -521,7 +521,8 @@ background: var(--button-brown-hover);
 }
 
 .social-box img {
-  padding: 10px;
+  padding-top: auto;
+  padding-bottom: auto;
 }
 
 .social a{
