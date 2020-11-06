@@ -232,6 +232,11 @@
 .html-logo {
   grid-column: 3/4;
 }
+
+.social a {
+  display: grid;
+  grid-column: 2/5;
+}
 /* ОКОНЧАНИЕ ГРИДЫ */
 
 .h1 {
@@ -371,8 +376,6 @@ background: var(--button-brown-hover);
   font-weight: bold;
   color: var(--basic-black);
 }
-
-      /* Страница №2*/
 
 .hotels-form {
   background: var(--basic-blue);
@@ -514,6 +517,7 @@ background: var(--button-brown-hover);
 }
 
 .social-box {
+  display: grid;
   width: 46px;
   height: 48px;
   background: var(--basic-blue);
