@@ -367,7 +367,7 @@
 .grid-villas {
   display: grid;
   grid-template-columns: 2fr 1fr 3fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 50px 40px 50px;
   grid-row: 1/-1;
   grid-column: 1/4;
 }
@@ -411,6 +411,10 @@
   text-align: left;
 }
 
+.buy {
+  margin-left: 6px;
+}
+
 
                           /* ОКОНЧАНИЕ ГРИДЫ */
 
@@ -420,6 +424,7 @@
 }
 
 button {
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   border: none;
   text-transform: uppercase;
 }
@@ -612,7 +617,6 @@ background: var(--button-brown-hover);
 }
 
 .hotel-info {
-  font-family: "PT Sans Narrow", Arial, sans-serif;
   color: var(--basic-white);
   background: var(--basic-blue);
   line-height: 21px;
