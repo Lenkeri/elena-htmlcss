@@ -120,13 +120,11 @@
   grid-row: 2/3;
   grid-column: 2/3;
   color: var(--basic-black);
-  /* padding-top: 50px; */
 }
 
 .grid-image p {
   grid-row: 3/4;
   grid-column: 2/3;
-  /* padding-top: 50px; */
   padding-bottom: 30px;
 }
 
@@ -700,7 +698,6 @@ background: var(--button-brown-hover);
   width: 46px;
   height: 48px;
   background: var(--basic-blue);
-  /* margin: 0 30px; */
 }
 
 .social-box img {
@@ -710,7 +707,6 @@ padding-top:15px;
 .social a{
   color: var(--basic-white);
   opacity: 1;
-  /* background: var(--basic-blue); */
 }
 
 .social-box:hover {
@@ -734,10 +730,6 @@ opacity: 1;
   color: var(--academy-active);
   opacity: 0.3;
 }
-
-/* .social ul {
-  background-color: var(--basic-blue);
-} */
 
 .visually-hidden {
   position: absolute;
