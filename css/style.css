@@ -50,6 +50,7 @@
 }
 
 .main-hotels {
+  font-family: "PT Sans", Arial, sans-serif;
   display: grid;
   grid-column: 1/2;
   grid-row: 2/3;
@@ -83,7 +84,7 @@
   grid-row: 1/2;
 }
 
-.main-navigation img {
+.logo-sedona {
   grid-column: 3/4;
   grid-row: 1/2;
   z-index: 2;
@@ -390,9 +391,10 @@ padding-top: 5px;
 .search {
   grid-row: 1/2;
   grid-column: 1/-1;
-  display: grid;
+  display: flex;
+  /* display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
 }
 
 .by {
