@@ -203,7 +203,7 @@
 
 .grid-advantages-souvenirs h3{
   margin-bottom: 12px;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .grid-advantages-home h3{
@@ -217,22 +217,30 @@
 }
 
 .advantages-home {
-  padding-left: 11px;
+  padding-left: 12px;
 }
 
 .advantages-eat{
-  padding-left: 7px;
+  padding-left: 10px;
 }
 
-.grid-advantages-eat img,
-.grid-advantages-souvenirs img,
-.grid-advantages-home img {
+.advantages-souvenirs {
+  padding-right: 3px;
+}
+
+.grid-advantages-eat img{
   padding-bottom: 7px;
+  margin-left: 8px;
 }
 
-.grid-advantages-eat img,
-.grid-advantages-home img{
-  margin-left: 15px;
+.grid-advantages-home img  {
+  padding-bottom: 6px;
+  margin-left: 13px;
+}
+
+.grid-advantages-souvenirs img{
+  margin-right: 4px;
+  padding-bottom: 6px;
 }
 
 .grid-advantages-2 {
@@ -241,15 +249,25 @@
   grid-column: 3/4;
 }
 
-.grid-advantages-2 p {
+.grid-advantages-2 p{
 padding-top: 5px;
 }
 
-.margin-for-2 {
-  display: inline-block;
-  margin-top: 23px;
+.advantages-3-4-5 p {
+  padding-top: 5px;
 }
 
+.advantages-5 {
+  padding-left: 29px;
+}
+
+.advantages-3 {
+  padding-left: 18px;
+}
+
+.advantages-4 {
+  padding-left: 50px;
+}
 
 .img-2 {
   grid-column: 1/3;
@@ -260,9 +278,6 @@ padding-top: 5px;
   grid-column: 1/-1;
   grid-row: 4/5;
   display: flex;
-
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 .advantages-3-4-5 li{
@@ -273,15 +288,27 @@ padding-top: 5px;
 }
 
  .advantages-3-4-5 h3{
-  padding-top: 5px;
+  padding-top: 6px;
+  padding-left: 18px
 }
+
+.grid-advantages-4 h3{
+  padding-left: 50px
+}
+
+.grid-advantages-5 h3{
+  padding-left: 29px
+}
+
 
 .search-in-sedona {
   margin-top: 30px;
+  padding-left: 6px;
 }
 
 .info {
   line-height: 24px;
+  padding-top: 3px;
 }
 
 .search-hotels{
@@ -493,7 +520,7 @@ padding-top: 5px;
 }
 
 button {
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   border: none;
   text-transform: uppercase;
 }
@@ -579,7 +606,7 @@ line-height: 21px;
   font-size: 30px;
   line-height: 24px;
   color: var(--basic-black);
-  padding-top: 28px;
+  padding-top: 26px;
 }
 
 .search-in-sedona {
@@ -705,7 +732,7 @@ background: var(--button-brown-hover);
 }
 
 .buy {
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   color: var(--basic-white);
   background: var(--button-brown);
   line-height: 21px;
