@@ -412,7 +412,7 @@ padding-top: 5px;
   padding-left: 27px;
   padding-top: 10px;
   margin: 0px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 1fr;
   display: grid;
   grid-row: 2/3;
@@ -453,7 +453,7 @@ padding-top: 5px;
   grid-column: 1/-1;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-rows: 149px 151px 151px;
 }
 .amara {
   grid-row: 1/2;
@@ -488,7 +488,9 @@ padding-top: 5px;
 }
 
 .rating {
-  grid-row: 3/4;
+  padding-right: 60px;
+  padding-top: 42px;
+  grid-row: 2/4;
   grid-column: -2/-1;
   width: 110px;
   height: 27px;
@@ -733,6 +735,14 @@ background: var(--button-brown-hover);
   line-height: 18px;
 }
 
+.type-by {
+  padding-left: 23px;
+}
+
+.price-by {
+  padding-left: 6px;
+}
+
 .type-by a,
 .rating-by a {
   font-size: 12px;
@@ -899,4 +909,9 @@ opacity: 1;
 
 .right-2 .current:hover {
   color: var(--button-brown) !important;
+}
+
+.grid-desert img,
+.grid-villas img {
+  padding-top: 4px;
 }
