@@ -481,7 +481,7 @@ padding-top: 5px;
 .grid-desert,
 .grid-villas {
   display: grid;
-  grid-template-columns: 2fr 1fr 3fr;
+  grid-template-columns: 190px 115px 3fr;
   grid-template-rows: 50px 40px 50px;
   grid-row: 1/-1;
   grid-column: 1/4;
@@ -490,8 +490,8 @@ padding-top: 5px;
 .rating {
   grid-row: 3/4;
   grid-column: -2/-1;
-  width: 83px;
-  height: 21px;
+  width: 110px;
+  height: 27px;
   margin: 0 auto;
 }
 
@@ -524,10 +524,19 @@ padding-top: 5px;
   grid-row: 2/3;
   grid-column: 2/4;
   text-align: left;
+  margin: 0px;
 }
 
-.buy {
-  margin-left: 6px;
+.on-buy-1 {
+  padding-left: 35px;
+}
+
+.on-buy-2 {
+  padding-left: 60px;
+}
+
+.on-buy-3 {
+  padding-left: 18px;
 }
 
 
@@ -578,9 +587,9 @@ img {
   line-height: 26px;
 }
 
-.current {
-  color: var(--button-brown);
-}
+/* .current {
+
+} */
 
 .site-navigation a:active {
   opacity: 0.3;
@@ -882,4 +891,12 @@ opacity: 1;
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+.right-2 .current{
+  color: var(--button-brown) !important;
+}
+
+.right-2 .current:hover {
+  color: var(--button-brown) !important;
 }
