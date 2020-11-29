@@ -14,6 +14,9 @@
   --button-brown-active: #503E33;
   --button-grey: #CACACA;
   --academy-active: #231F20;
+  --text-brown: #847870;
+  --text-grey: #B3B3B3;
+  --text-blue: #81B1CE;
 }
 
 .body {
@@ -86,7 +89,7 @@
   grid-row: 1/2;
 }
 
-.logo-sedona {
+.main-navigation a {
   grid-column: 3/4;
   grid-row: 1/2;
   z-index: 2;
@@ -326,7 +329,6 @@ padding-top: 5px;
   /* display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   grid-row: 1fr; */
-  justify-content: space-around;
 }
 
 .footer {
@@ -335,12 +337,16 @@ padding-top: 5px;
 }
 
 .footer p {
+  margin-top: 15px;
+  padding-left: 4px;
   font-weight: bold;
   font-size: 21px;
-  line-height: 26px;
+  line-height: 35px;
 }
 
 .social {
+  padding-top: 19px;
+  padding-left: 181px;
   grid-column: 2/3;
   display: flex;
   /* grid-template-columns: auto auto auto;
@@ -349,16 +355,25 @@ padding-top: 5px;
 }
 
 .html-logo {
+  padding-top: 23px;
+  padding-left: 190px;
   grid-column: 3/4;
   grid-row: 1/2;
 }
 
+.html-logo img {
+  padding-left: 8px;
+  padding-bottom: 3px;
+}
+
 .box-1 {
+  padding-right: 6px;
   grid-column: 1/2;
   grid-row: 1/2;
 }
 
 .box-2 {
+  padding-right: 6px;
   grid-column: 2/3;
   grid-row: 1/2;
 }
@@ -433,9 +448,6 @@ padding-top: 5px;
 }
 
 .search button {
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr;
-  display: inline-grid;
   grid-row: 2/3;
   grid-column: -1/-2;
 }
@@ -488,13 +500,22 @@ padding-top: 5px;
 }
 
 .rating {
-  padding-right: 60px;
-  padding-top: 42px;
+  margin-left: 11px;
+  margin-top: 42px;
   grid-row: 2/4;
   grid-column: -2/-1;
   width: 110px;
   height: 27px;
-  margin: 0 auto;
+}
+
+.star {
+  padding-top: 23px;
+  padding-right: 70px;
+
+}
+
+.rating-2 {
+  margin-top: 50px;
 }
 
 .star {
@@ -595,7 +616,7 @@ img {
 
 .site-navigation a:active {
   opacity: 0.3;
-  color: var(--basic-black);
+  color: var(--text-grey);
 }
 
 .advantages-1 h3,
@@ -655,7 +676,7 @@ background: var(--button-brown-hover);
 
 .search-in-sedona:active {
   background: var(--button-brown-active);
-  opacity: 0.3;
+  color: var(--text-brown);
   }
 
 .form-search {
@@ -674,11 +695,12 @@ background: var(--button-brown-hover);
 
 .form-search:active {
   background: var(--basic-blue-active);
-  opacity: 0.3;
+  color: var(--text-blue);
 }
 
 
 .footer {
+  padding-left: 125px;
   font-weight: bold;
   color: var(--basic-black);
 }
@@ -746,26 +768,31 @@ background: var(--button-brown-hover);
 .type-by a,
 .rating-by a {
   font-size: 12px;
-  color: var(--basic-black);
+  color: var(--text-grey);
   line-height: 18px;
-  opacity: 0.3;
   border-bottom: 1px dashed;
   border-color: var(--basic-blue);
 }
 
 .type-by a:active,
 .rating-by a:active {
-  color: var(--basic-black);
+  color: var(--basic-black) !important;
   border: none;
-  opacity: 1;
 }
 
 .direction {
  border: none;
  outline: none;
  background: none;
- color: var(--button-grey);
- position: absolute;
+ color: var(--text-grey);
+}
+
+.direction:first-of-type {
+  margin-left: auto;
+}
+
+.direction:last-of-type {
+  margin-right: 70px;
 }
 
 .direction:hover {
@@ -791,7 +818,7 @@ background: var(--button-brown-hover);
 }
 
 .hotel-info:active {
-  opacity: 0.3;
+  color: var(--text-blue);
   background: var(--basic-blue-active);
 }
 
@@ -812,7 +839,7 @@ background: var(--button-brown-hover);
 
 .buy:active {
   background: var(--button-brown-active);
-  opacity: 0.3;
+  color: var(--text-brown);
 }
 
 .rating {
@@ -840,6 +867,8 @@ background: var(--button-brown-hover);
 }
 
 .academy {
+  display: flex;
+  align-items: center;
   color: var(--basic-black);
 }
 
@@ -849,13 +878,11 @@ background: var(--button-brown-hover);
   font-size: 21px;
   line-height: 26px;
   color: var(--basic-black);
-  opacity: 1;
 }
 
 .name-hotels:active {
-  color: var(--basic-black);
+  color: var(--text-grey);
   mix-blend-mode: normal;
-  opacity: 0.3;
 }
 
 .social-box {
@@ -870,7 +897,6 @@ padding-top:15px;
 
 .social a{
   color: var(--basic-white);
-  opacity: 1;
 }
 
 .social-box:hover {
@@ -879,11 +905,11 @@ padding-top:15px;
 
 .social-box:active{
 background: var(--basic-blue-active);
-opacity: 1;
+color: var(--text-blue);
 }
 
 .social a:active {
-  opacity: 0.3;
+color: var(--text-blue);
 }
 
 .academy {
@@ -892,7 +918,7 @@ opacity: 1;
 
 .academy:active {
   color: var(--academy-active);
-  opacity: 0.3;
+  color: var(--text-grey);
 }
 
 .visually-hidden {
@@ -914,4 +940,9 @@ opacity: 1;
 .grid-desert img,
 .grid-villas img {
   padding-top: 4px;
+}
+
+.number-phone {
+  color: var(--basic-black);
+  padding-top:1px;
 }
