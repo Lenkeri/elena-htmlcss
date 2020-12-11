@@ -793,6 +793,8 @@ background: var(--button-brown-hover);
 }
 
 .direction {
+  margin-bottom: 23px;
+  font-size: 30px;
  border: none;
  outline: none;
  background: none;
@@ -801,10 +803,12 @@ background: var(--button-brown-hover);
 
 .direction:first-of-type {
   margin-left: auto;
+  padding-right: 0;
 }
 
 .direction:last-of-type {
-  margin-right: 70px;
+  margin-right: 60px;
+  padding-left: 0;
 }
 
 .direction:hover {
