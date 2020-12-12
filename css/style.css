@@ -802,6 +802,7 @@ background: var(--button-brown-hover);
 }
 
 .direction:first-of-type {
+  margin-right: 8px;
   margin-left: auto;
   padding-right: 0;
 }
